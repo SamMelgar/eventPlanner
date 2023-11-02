@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event List</title>
+</head>
+
+<body>
+    <h1>Add New Event</h1>
+    <form id="eventForm">
+        <label for="eventName">Name:</label>
+        <input type="text" id="eventName" required><br>
+
+        <label for="eventLocation">Location:</label>
+        <input type="text" id="eventLocation" required><br>
+
+        <label for="eventDate">Date:</label>
+        <input type="date" id="eventDate" required><br>
+
+        <button type="submit">Add Event</button>
+    </form>
+
+    <h2>Events</h2>
+    <ul id="eventsList"></ul>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
